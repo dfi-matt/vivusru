@@ -1,6 +1,6 @@
 /*
 Theme Name: Vivus 2018
-Theme URI: http://vivus.mk
+Theme URI: http://vivus100.ru
 Author: Matt Barton
 Author URI: http://digitalfinance.com
 Version: 1.0
@@ -537,16 +537,6 @@ input[type=submit].btn-white {
 	z-index: 99;
 }
 
-.left-radius-fix {
-	-webkit-border-top-left-radius: .3rem;
--webkit-border-bottom-left-radius: .3rem;
--moz-border-radius-topleft: .3rem;
--moz-border-radius-bottomleft: .3rem;
-border-top-left-radius: .3rem;
-border-bottom-left-radius: .3rem;
-}
-
-
 
 /* ==========================================================================
 Hero and Header Styles
@@ -609,10 +599,6 @@ a.logo, a.logo img {
 	height: 32px;
 	display: inline-block;
 }
-
-
-
-
 
 
 
@@ -688,10 +674,6 @@ input.slider-value-amount {
 	font-weight: 600;
 	color: #fff;
 }
-
-
-
-
 
 
 /* ==========================================================================
@@ -802,8 +784,6 @@ noUI Sliders
 
 
 
-
-
 @media(max-width: 1199px){
 
 }
@@ -824,13 +804,9 @@ noUI Sliders
 		padding-bottom: 10px;
 	}
 
-
-
 	.slider-value {
 		font-size: 22px;
 	}
-
-	
 
 	a.logo, a.logo img {
 		width: 130px;
@@ -877,98 +853,6 @@ noUI Sliders
 
 
 
-
-/*--------------------------------------------
-Language Selector
------------------------------------------------*/
-
-
-.language-selector {
-	width: 24px;
-	height: 20px;
-	background: url('../images/flag_russia.png') no-repeat top center;
-	background-size: 24px 16px;
-	position: relative;
-	top: 4px;
-	display: inline-block;
-	cursor: pointer;
-}
-
-.language-selector:after {
-
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 4px 3px 0 3px;
-	border-color: #000 transparent transparent;
-
-	position: absolute;
-	right: -10px;
-	top: 50%;
-	margin-top: -4px;
-	content: '';
-}
-
-.language-selector.white:after {
-	border-color: #fff transparent transparent;
-}
-
-.language-selector ul {
-	position: absolute;
-	bottom: -83px;
-	width: 148px;
-	right: -10px;
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	background-color: #fff;
-	font-size: 12px;
-	display: none;
-	text-align: left;
-	z-index: 99;
-	padding: 3px;
-	box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
-}
-
-.language-selector ul li {
-	padding: 10px;
-	border-top: 1px solid  #efefef;
-}
-
-.language-selector ul li:hover {
-	background-color: #efefef;
-}
-
-.language-selector ul li:first-child {
-	border-top: none;	
-}
-
-.language-selector ul li a {	
-	color: #000;
-	display: block;
-	background: transparent url('../images/flag_russia.png') no-repeat right center;
-	background-size: 24px 16px;
-}
-
-.language-selector ul li a:hover {	
-	text-decoration: none;
-}
-
-.language-selector:hover ul {
-	display: block;
-}
-
-.language-selector ul li a.icon-ru, .language-selector.icon-ru {
-	background-image: url('../images/flag_russia.png');
-}
-
-.language-selector ul li a.icon-ro, .language-selector.icon-ro {
-	background-image: url('../images/flag_romania.png');	
-}
-
-
-
-
 .hta-icon {
 	line-height: 100px;
 	max-height: 100px;
@@ -991,7 +875,6 @@ Language Selector
 }
 
 
-
 .question {
 	margin-bottom: 50px;
 	position: relative;
@@ -1006,7 +889,6 @@ Language Selector
 	border-bottom: 1px solid #efefef;
 	position: relative;
 }
-
 
 .question-large-title {
 	cursor: pointer;
@@ -1086,12 +968,6 @@ Language Selector
 .box.tight {
 	padding: 12px 30px;
 }
-
-.box-black {
-	/*background-color: rgba(0,0,0,0.7);*/
-	/*color: #fff;*/
-}
-
 
 
 /* ==========================================================================
@@ -1286,7 +1162,7 @@ header.open .nav-icon span, header.white-bg .nav-icon span {
 	font-weight: 400;
 	background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
 	font-size: 24px;
-	padding: 17px 17px 17px 1000px;
+	padding: 17px 12px 17px 1000px;
 	line-height: 38px;
 	border-radius: 0px 10px 10px 0px;
 }
@@ -1296,7 +1172,7 @@ header.open .nav-icon span, header.white-bg .nav-icon span {
 	margin: 0px;
 	font-weight: 700;
 	position: relative;
-	font-size: 50px;
+	font-size: 43px;
 	line-height: 1;
 	letter-spacing: -2px;
 	margin-bottom: 30px;
@@ -1316,7 +1192,7 @@ header.open .nav-icon span, header.white-bg .nav-icon span {
 
 #caption-box blockquote cite {
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 300;
 	display: block;
 	text-align: right;
 	font-size: 16px;
@@ -1345,8 +1221,10 @@ header.open .nav-icon span, header.white-bg .nav-icon span {
 
 @media(max-width: 575px){
 
+
+
 	#caption-box {
-		margin: 20px 0px 0px 0px;
+		margin: 90px 0px 0px 0px;
 		font-weight: 400;
 		background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
 		font-size: 24px;
@@ -1358,322 +1236,24 @@ header.open .nav-icon span, header.white-bg .nav-icon span {
 	#caption-box h1 {
 		font-size: 28px;
 		max-width: 100%;
+		margin-bottom: 10px;
 	}
 
 	#caption-box blockquote p {
-		font-size: 18px;
+		font-size: 14px;
 		line-height: 1.4;
+		margin-bottom: 5px;
+	}
+
+
+	#caption-box blockquote cite {
+		font-size: 12px;
+		line-height: 1;
 	}
 
 }
 
 
-
-
-/* ==========================================================================
-Step Styles
-========================================================================== */
-
-
-.step {
-	background-color: #e4e6ea;
-	padding: 12px 5px 12px 50px;
-	font-size: 0.77em;
-	-webkit-border-top-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	-moz-border-radius-topleft: 3px;
-	-moz-border-radius-bottomleft: 3px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	width: 95%;
-	position: relative;
-	display: inline-block;
-	text-align: left;
-	background-repeat: no-repeat;
-	background-position: 8px center;
-	background-size: 34px 34px;
-}
-
-.step:after {
-	position: absolute;
-	content: '';
-	right: -24px;
-	top: 0;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 22.4px 0 22.4px 24px;
-	border-color: transparent transparent transparent #e4e6ea;
-}
-
-.step strong {
-	/*font-weight: 700;*/
-}
-
-.step.active {
-	/*background-color: #edeaf8;*/
-	background-color: #a6ce39;
-	color: #fff;
-	font-weight: 700;
-}
-
-.step.active:after {
-	border-color: transparent transparent transparent #a6ce39;
-}
-
-.step.final {
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-}
-
-.step.final:after {
-	border: none;
-}
-
-.step-icon-coins {
-	background-image: url('../images/icon_coins.png');
-}
-
-.step-icon-form {
-	background-image: url('../images/icon_form.png');
-}
-
-.step-icon-slider {
-	background-image: url('../images/icon_slider.png');
-}
-
-.step.completed {
-	background-image: url('../images/icon_completed.png');
-}
-
-
-
-
-@media(max-width: 1199px){
-
-	.step {
-		font-size: 0.667em;
-	}
-
-}
-
-@media(max-width: 991px){
-
-	.step:after {
-		display: none;
-	}
-
-	.step {
-		width: 100%;
-		margin-bottom: 10px;
-		padding: 12px 10px 12px 60px;
-		font-size: 0.77em;
-	}
-
-
-
-}
-
-@media(max-width: 767px){
-
-}
-
-@media(max-width: 575px){
-
-}
-
-
-
-
-
-/* ==========================================================================
-Form Styles
-========================================================================== */
-
-
-.form-group {
-	margin-bottom: 35px;
-}
-
-div.form-group.has-error {
-	margin-bottom: 8px;
-}
-
-.form-group label {
-	font-weight: 700;
-	font-size: 0.88em;
-}
-
-.form-check label {
-	cursor: pointer;
-	font-size: 0.88em;
-}
-
-
-.form-control {
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 8px 15px 8px 15px;
-	background-color: #e4e6ea;
-	border: 1px solid #d3d3d3;
-	box-shadow: none;
-	height: auto;
-	color: #000;
-}
-
-.form-control::placeholder {
-	font-weight: 300;
-}
-
-.form-control.valid {
-	background: #fff url('../images/form_success.png') no-repeat right center;
-	background-size: 32px 32px;
-}
-
-.form-control.error {
-	background: #e4e6ea url('../images/form_error.png') no-repeat right center;
-	background-size: 32px 32px;
-	border: 1px solid #ebebeb !important;
-}
-
-.form-control.valid.dont-mark {
-	background-image: none;
-}
-
-.form-control:focus {
-	background-color: #fff;
-}
-
-.form-control.white-bg {
-	background-color: #fff;
-}
-
-label.control-label {
-	font-weight: 200;
-	font-size: 14px;
-}
-
-span.input-group-addon {
-	border: none;
-	background-color: #ddd;
-}
-
-.has-help:focus {
-	
-}
-					
-.helper {
-	display: none;
-	position: absolute;
-	bottom:8px;
-	right: 16px;
-	
-	background-color: #aaaaaa;
-	color: #fff;
-	padding: 2px 5px;
-	font-size: 11px;
-	font-style: oblique;
-	border-radius: 3px;
-}
-
-.has-help:focus + .helper {
-	display: block;
-}
-
-select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	padding: .5em;
-	background: #eee;
-	border: none;
-	border-radius: 3px;
-	padding: 10px 15px 7px 15px;
-	font-size: 16px;
-	font-weight: 300;
-	width: 100%;
-	color: #555;
-}
-.select-container {position:relative; display: inline;}
-.select-container:after {content:""; width:0; height:0; position:absolute; pointer-events: none;}
-.select-container:after {
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	top: .3em;
-	right: .75em;
-	border-top: 8px solid black;
-	opacity: 0.5;
-}
-select::-ms-expand {
-	display: none;
-}
-
-span.help-block {
-	font-size: 12px;
-}
-
-span.help-block.form-error {
-	color: #fe0000;
-}
-
-.input-group.has-error {
-	margin-bottom: 18px;
-}
-
-.input-group.has-error span.help-block {
-	position: absolute;
-	bottom: -30px;
-	left: 0px;
-	z-index: 2;
-}
-
- select.defaultoption {
- 	color: #999;
- }
-
- div.radio label {
- 	font-size: 14px;
- }
-
- span.chkbox input[type=checkbox] {
-	display: none;
-}
-
-.chk-container {
-	font-size: 0.88em;
-	position: relative;
-}
-
-.chk-container .form-error {
-	display: block;
-	position: relative;
-	top: 8px;
-}
-
-span.chkbox {
-	width: 32px;
-	height: 32px;
-	background: #106c3a url('../images/checkbox.png') no-repeat center top;
-	background-size: 32px 64px;
-	display: inline-block;
-	margin-right: 5px;
-	position: relative;
-	top: 7px;
-	cursor: pointer;
-}
-
-span.chkbox.white-bg {
-	background-color: #fff;
-}
-
-span.unchecked {
-	background-position: center -32px;
-	background-color: #e4e6ea;
-}
 
 .table-schedule {
 	font-size: 14px;
@@ -1683,36 +1263,20 @@ span.unchecked {
 	white-space: nowrap;
 }
 
-
-
-/*--------------------------------------------
-Internal Pages
------------------------------------------------*/
-
-#banner {
-	background: url('../images/hero-bg.jpg') no-repeat center center / cover;
-	height: 33vh;
+.table-responsive {
+	overflow-y: auto;
+	max-height: 80vh;
+	display: block;
 }
 
-#breadcrumbs {
-	background-color: #efefef;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 0.77em;
-	font-weight: 200;
-}
-
-#breadcrumbs a {
-	color: #000;
-}
-
-#cb-woman {
-	width: 210px;
-	height: 190px;
-	background: transparent url('../images/woman.png') no-repeat center center;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
+button.close {
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	background-color: #4d4d4d;
+	color: #fff;
+	text-shadow: none;
+	opacity: 1;
 }
 
 
@@ -1733,4 +1297,73 @@ Lightslider
 
 .lSSlideOuter .lSPager.lSpg > li.active a, .lSSlideOuter .lSPager.lSpg > li a:hover  {
     background-color: #106c3a;
+}
+
+
+/*--------------------------------------------
+Modal
+-----------------------------------------------*/
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 0px;
+  padding: 10px;
+  background: #11add1;
+  border: 0;
+}
+
+.modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 60px;
+  width: 100%;
+  font-weight: 300;
+  overflow: auto;
+}
+
+.modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  padding: 10px;
+  background: #f1f3f5;
 }

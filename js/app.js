@@ -1,6 +1,9 @@
 
 
 $(function(){
+
+	$('.mh').matchHeight();
+	
 	$('.nav-icon').click(function(){
 		$("header").toggleClass("open");
 		$('.nav-icon').toggleClass('open');
@@ -14,22 +17,6 @@ $(function(){
 		pos = $(pos).position().top;
 		$('html, body').stop().animate({scrollTop: pos}, 1000);
 		return false;
-	});
-
-	$(".chkbox").on("click", function(e){
-		var chkbox = $(this);
-		var targetChk = chkbox.parent().children('input[type=checkbox]');
-
-		if(chkbox.hasClass("unchecked")){
-			chkbox.removeClass("unchecked");
-			targetChk.prop("checked", true);
-		} else {
-			chkbox.addClass("unchecked");
-			targetChk.prop("checked", false);
-		}
-
-		targetChk.validate();
-
 	});
 
 	$('.question-title').click(function(){
